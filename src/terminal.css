@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    padding: 0;
+
+    background-color: #2b2b2b;
+    color: #c5c8c6;
+    box-sizing: border-box;
+  }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+  
+  .terminal {
+    padding: 20px;
+    /* height: 100vh; */
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .output-area {
+    /* flex-grow: 1;
+    white-space: pre-wrap; */
+    overflow-y: auto;
+  }
+  
+  .input-area {
+    display: flex;
+    align-items: center;
+  }
+  
+  input {
+    font-family: monospace;
+    background: none;
+    border: none;
+    outline: none;
+    color: #c5c8c6;
+    flex-grow: 1;
+    /* font-size: 18px; */
+    color: greenyellow;
+  }
+  
+  input::placeholder {
+    color: #757575;
+  }
+
+
+  
