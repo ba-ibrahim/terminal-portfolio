@@ -7,19 +7,20 @@ body {
     box-sizing: border-box;
     font-size: 18px;
   }
-*{
+* {
+  font-size: 18px;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: monospace;
 }
   
-  .terminal {
+.terminal {
     padding: 20px;
     /* height: 100vh; */
     display: flex;
     flex-direction: column;
-  }
+}
   
   .output-area {
     /* flex-grow: 1;
@@ -28,6 +29,7 @@ body {
   }
   
   .input-area {
+    font-size: 18px;
     display: flex;
     align-items: center;
   }
